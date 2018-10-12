@@ -46,7 +46,7 @@ In `conky.lua`, you have to set some values specific to your system:
 
   - *nbCPU* is your number of CPU/threads
   - *FSs* is a list of the filesystem mountpoints you want to monitor
-  - *l/w* adapter are the names of the different interfaces you want to
+  - *l/w adapter* are the names of the different interfaces you want to
     monitor
   - *ntop* is the number of processes you want to display in the top
     widget

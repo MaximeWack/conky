@@ -10,7 +10,7 @@ cur = 1
 -- SETTINGS
 nbCPU = 4
 FSs = {"/", "/var", "/home"}
-ladapter = "eth0" -- eno1
+ladapter = "eth0"
 wadapter = "wlan0"
 ntop = 10
 -- SETTINGS
