@@ -3,9 +3,11 @@ I feel finally comfortable enough sharing my conky\!
 
 Here is what it looks like :
 
-| Idle          | Busy          |
-| ------------- | ------------- |
-| ![](idle.png) | ![](busy.png) |
+<video width="960" height="540" controls loop video controls autoplay>
+
+<source src="video.mp4" type="video/mp4"/>
+
+Your browser does not support the video tag. </video>
 
 It is coded entirely in **lua**, using **cairo** bindings.  
 Everything is displayed using transparency, so you can use it with your
@@ -46,14 +48,16 @@ In `conky.lua`, you have to set some values specific to your system:
 
   - *nbCPU* is your number of CPU/threads
   - *FSs* is a list of the filesystem mountpoints you want to monitor
-  - *l/w adapter* are the names of the different interfaces you want to
-    monitor
+  - *l/wadapter* are the names of the different network interfaces you
+    want to monitor
   - *ntop* is the number of processes you want to display in the top
     widget
 
 You can go further in customization and place the widgets wherever you
 want on the screen, set the color used for the bars, the font face and
 size, etc.  
+Note that the font size is (crudely) automatically determined depending
+on your screen height and options.  
 All the functions used to draw bars, history plots, embossed regions or
 text are available to play with.
 
